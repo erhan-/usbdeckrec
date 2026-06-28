@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "/workspace/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/opt/android-sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/workspace/app/.cxx/Debug/5q2l1m5v/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/opt/android-sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/workspace/app/.cxx/Debug/5q2l1m5v/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "deckrec_audio::@6890427a1f51a3e7e1df": {
+      "artifactName": "deckrec_audio",
+      "abi": "x86_64",
+      "output": "/workspace/app/build/intermediates/cxx/Debug/5q2l1m5v/obj/x86_64/libdeckrec_audio.so",
+      "runtimeFiles": [
+        "/root/.gradle/caches/transforms-3/d4655d307257f534265a22ce0a073c04/transformed/oboe-1.9.0/prefab/modules/oboe/libs/android.x86_64/liboboe.so"
+      ]
+    }
+  }
+}

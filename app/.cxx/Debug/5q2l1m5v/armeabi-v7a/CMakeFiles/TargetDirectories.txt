@@ -1,0 +1,3 @@
+/workspace/app/.cxx/Debug/5q2l1m5v/armeabi-v7a/CMakeFiles/deckrec_audio.dir
+/workspace/app/.cxx/Debug/5q2l1m5v/armeabi-v7a/CMakeFiles/edit_cache.dir
+/workspace/app/.cxx/Debug/5q2l1m5v/armeabi-v7a/CMakeFiles/rebuild_cache.dir

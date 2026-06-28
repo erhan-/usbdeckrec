@@ -1,0 +1,16 @@
+# ninja log v5
+5	418	1781050314218876054	CMakeFiles/deckrec_audio.dir/UsbIsochronousCaptureEngine.cpp.o	8bb40868b31067dd
+6	416	1781050314216876033	CMakeFiles/deckrec_audio.dir/NativeBridge.cpp.o	69b8212943853cd1
+0	23	1781050527480729744	build.ninja	6a3955815f13dc7e
+6	399	1781050314199875859	CMakeFiles/deckrec_audio.dir/DjmBulkCaptureEngine.cpp.o	88df397bed719aa6
+482	504	1781050314309195171	/workspace/app/build/intermediates/cxx/Debug/5q2l1m5v/obj/armeabi-v7a/libdeckrec_audio.so	c8820627474ca8ac
+6	482	1781050314281876700	CMakeFiles/deckrec_audio.dir/AudioCaptureEngine.cpp.o	ba6d587b62941fd8
+8	127	1781050313928873082	CMakeFiles/deckrec_audio.dir/LockFreeQueue.cpp.o	ddbef52e1da9538f
+7	56	1781050313859872374	CMakeFiles/deckrec_audio.dir/ChannelExtractor.cpp.o	4d47101ddb00e945
+3	33	1781050527616063122	CMakeFiles/deckrec_audio.dir/ChannelExtractor.cpp.o	4d47101ddb00e945
+4	85	1781050527666063634	CMakeFiles/deckrec_audio.dir/LockFreeQueue.cpp.o	ddbef52e1da9538f
+3	316	1781050527896086859	CMakeFiles/deckrec_audio.dir/UsbIsochronousCaptureEngine.cpp.o	8bb40868b31067dd
+3	327	1781050527905066084	CMakeFiles/deckrec_audio.dir/DjmBulkCaptureEngine.cpp.o	88df397bed719aa6
+2	355	1781050527935066391	CMakeFiles/deckrec_audio.dir/NativeBridge.cpp.o	69b8212943853cd1
+2	409	1781050527988371985	CMakeFiles/deckrec_audio.dir/AudioCaptureEngine.cpp.o	ba6d587b62941fd8
+409	431	1781050528013067191	/workspace/app/build/intermediates/cxx/Debug/5q2l1m5v/obj/armeabi-v7a/libdeckrec_audio.so	c8820627474ca8ac

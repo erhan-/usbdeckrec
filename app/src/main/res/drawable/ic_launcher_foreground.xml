@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Record circle (outer) -->
+    <path
+        android:fillColor="#FFD32F2F"
+        android:pathData="M54,36
+            m-8,0
+            a8,8 0,1 1,16 0
+            a8,8 0,1 1,-16 0" />
+
+    <!-- Record circle (inner dot) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,36
+            m-3,0
+            a3,3 0,1 1,6 0
+            a3,3 0,1 1,-6 0" />
+
+    <!-- USB plug shape (simplified) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M44,72
+            L44,62
+            L38,62
+            L38,46
+            L70,46
+            L70,62
+            L64,62
+            L64,72
+            L44,72 Z" />
+
+    <!-- USB inner rectangle -->
+    <path
+        android:fillColor="#FF121212"
+        android:pathData="M42,50
+            L66,50
+            L66,58
+            L42,58
+            L42,50 Z" />
+
+    <!-- USB center pin -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M52,50
+            L56,50
+            L56,66
+            L52,66
+            L52,50 Z" />
+
+</vector>

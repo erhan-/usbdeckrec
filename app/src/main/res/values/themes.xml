@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.USBDeckRec" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/primary_red</item>
+        <item name="android:colorPrimaryDark">@color/dark_background</item>
+        <item name="android:colorAccent">@color/primary_red</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:navigationBarColor">@color/dark_background</item>
+    </style>
+</resources>

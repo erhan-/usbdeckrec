@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+gradle/wrapper/
+build/
+
+# Android build artifacts
+app/build/
+
+# Version control
+.git/
+.gitignore
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker/
+
+# Oboe source (unused — we use Prefab)
+oboe/
+
+# Plans
+plans/
+*.md

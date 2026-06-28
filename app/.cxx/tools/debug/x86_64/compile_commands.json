@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/workspace/app/.cxx/Debug/5q2l1m5v/x86_64",
+  "command": "/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android26 --sysroot=/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddeckrec_audio_EXPORTS -I/workspace/app/src/main/jni -isystem /root/.gradle/caches/transforms-3/d4655d307257f534265a22ce0a073c04/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/deckrec_audio.dir/NativeBridge.cpp.o -c /workspace/app/src/main/jni/NativeBridge.cpp",
+  "file": "/workspace/app/src/main/jni/NativeBridge.cpp"
+},
+{
+  "directory": "/workspace/app/.cxx/Debug/5q2l1m5v/x86_64",
+  "command": "/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android26 --sysroot=/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddeckrec_audio_EXPORTS -I/workspace/app/src/main/jni -isystem /root/.gradle/caches/transforms-3/d4655d307257f534265a22ce0a073c04/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/deckrec_audio.dir/AudioCaptureEngine.cpp.o -c /workspace/app/src/main/jni/AudioCaptureEngine.cpp",
+  "file": "/workspace/app/src/main/jni/AudioCaptureEngine.cpp"
+},
+{
+  "directory": "/workspace/app/.cxx/Debug/5q2l1m5v/x86_64",
+  "command": "/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android26 --sysroot=/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddeckrec_audio_EXPORTS -I/workspace/app/src/main/jni -isystem /root/.gradle/caches/transforms-3/d4655d307257f534265a22ce0a073c04/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/deckrec_audio.dir/UsbIsochronousCaptureEngine.cpp.o -c /workspace/app/src/main/jni/UsbIsochronousCaptureEngine.cpp",
+  "file": "/workspace/app/src/main/jni/UsbIsochronousCaptureEngine.cpp"
+},
+{
+  "directory": "/workspace/app/.cxx/Debug/5q2l1m5v/x86_64",
+  "command": "/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android26 --sysroot=/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddeckrec_audio_EXPORTS -I/workspace/app/src/main/jni -isystem /root/.gradle/caches/transforms-3/d4655d307257f534265a22ce0a073c04/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/deckrec_audio.dir/DjmBulkCaptureEngine.cpp.o -c /workspace/app/src/main/jni/DjmBulkCaptureEngine.cpp",
+  "file": "/workspace/app/src/main/jni/DjmBulkCaptureEngine.cpp"
+},
+{
+  "directory": "/workspace/app/.cxx/Debug/5q2l1m5v/x86_64",
+  "command": "/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android26 --sysroot=/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddeckrec_audio_EXPORTS -I/workspace/app/src/main/jni -isystem /root/.gradle/caches/transforms-3/d4655d307257f534265a22ce0a073c04/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/deckrec_audio.dir/ChannelExtractor.cpp.o -c /workspace/app/src/main/jni/ChannelExtractor.cpp",
+  "file": "/workspace/app/src/main/jni/ChannelExtractor.cpp"
+},
+{
+  "directory": "/workspace/app/.cxx/Debug/5q2l1m5v/x86_64",
+  "command": "/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android26 --sysroot=/opt/android-sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Ddeckrec_audio_EXPORTS -I/workspace/app/src/main/jni -isystem /root/.gradle/caches/transforms-3/d4655d307257f534265a22ce0a073c04/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/deckrec_audio.dir/LockFreeQueue.cpp.o -c /workspace/app/src/main/jni/LockFreeQueue.cpp",
+  "file": "/workspace/app/src/main/jni/LockFreeQueue.cpp"
+}
+]

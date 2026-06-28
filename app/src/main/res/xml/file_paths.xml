@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--
+        StorageHelper now saves recordings to the public Music/USB DeckRec/ folder:
+          /storage/emulated/0/Music/USB DeckRec/
+        The <external-path> path is relative to Environment.getExternalStorageDirectory(),
+        so "Music/" is required since the files are under the Music subdirectory.
+    -->
+    <external-path name="recordings" path="Music/USB DeckRec/" />
+
+    <!--
+        Fallback: Also expose the legacy external-files-path for any existing
+        recordings that may have been migrated from the old location.
+    -->
+    <external-files-path name="recordings_legacy" path="Music/USB DeckRec/" />
+</paths>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pioneer DJM-900Nexus (original) — 4x4 USB, master Ch 1-2 -->
+    <usb-device vendor-id="1204" product-id="341" />  <!-- Cypress VID 0x04B4 -->
+    <usb-device vendor-id="11123" product-id="341" /> <!-- Pioneer DJ VID 0x2B73 -->
+    <usb-device vendor-id="2276" product-id="341" />  <!-- Pioneer Corp VID 0x08E4 -->
+
+    <!-- Pioneer DJM-900NXS2 — 10x10 USB, master rec Ch 9-10 -->
+    <usb-device vendor-id="1204" product-id="344" />
+    <usb-device vendor-id="11123" product-id="344" />
+    <usb-device vendor-id="2276" product-id="344" />
+
+    <!-- Pioneer DJM-900SRT — 2x2 USB, Serato interface -->
+    <usb-device vendor-id="1204" product-id="342" />
+    <usb-device vendor-id="11123" product-id="342" />
+    <usb-device vendor-id="2276" product-id="342" />
+
+    <!-- Pioneer DJM-750MK2 — 4x4 USB, master Ch 1-2 -->
+    <usb-device vendor-id="1204" product-id="343" />
+    <usb-device vendor-id="11123" product-id="343" />
+    <usb-device vendor-id="2276" product-id="343" />
+
+    <!-- Pioneer DJM-A9 — 10x10 USB, master rec Ch 9-10 -->
+    <usb-device vendor-id="1204" product-id="362" />
+    <usb-device vendor-id="11123" product-id="362" />
+    <usb-device vendor-id="2276" product-id="362" />
+
+    <!-- Pioneer DJM-V10 — 10x10 USB, master rec Ch 9-10 -->
+    <usb-device vendor-id="1204" product-id="355" />
+    <usb-device vendor-id="11123" product-id="355" />
+    <usb-device vendor-id="2276" product-id="355" />
+
+    <!-- Pioneer DJM-S11 — 10x10 USB, Serato DJ mixer -->
+    <usb-device vendor-id="1204" product-id="364" />
+    <usb-device vendor-id="11123" product-id="364" />
+    <usb-device vendor-id="2276" product-id="364" />
+
+    <!-- Generic USB Audio Class device (fallback for any unknown mixer) -->
+    <usb-device class="1" subclass="2" />
+</resources>

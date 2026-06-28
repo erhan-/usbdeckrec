@@ -1,0 +1,63 @@
+# USB DeckRec — Docker Compose Build
+# Uses BuildKit cache mounts and named volumes for maximum speed.
+#
+# Usage:
+#   Build APK:     docker compose -f docker/docker-compose.yml run --rm build
+#   Run tests:     docker compose -f docker/docker-compose.yml run --rm test
+#   Build base:    docker compose -f docker/docker-compose.yml build base
+#   Full build:    ./docker/build-apk.sh
+
+name: usbdeckrec
+
+services:
+  # ── Base image: SDK + NDK + Gradle (cached layer, rarely changes) ──────
+  base:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      target: base
+    image: usbdeckrec-base:latest
+    command: gradle --version
+
+  # ── Build: compiles the debug APK with full caching ──────────────────
+  build:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      target: base
+    image: usbdeckrec-builder:latest
+    depends_on:
+      - base
+    environment:
+      - GRADLE_OPTS=-Dorg.gradle.parallel=true -Dorg.gradle.caching=true
+    volumes:
+      # Gradle dependency cache (persists across builds)
+      - gradle-cache:/root/.gradle
+      # CCache for native C++/NDK compilation (speeds up C++ rebuilds ~5-10x)
+      - ccache-cache:/root/.ccache
+      # Source code mounted as volume (no COPY needed)
+      - ..:/workspace
+    working_dir: /workspace
+    command: gradle --build-cache --parallel --no-daemon assembleDebug
+
+  # ── Test: runs unit tests ────────────────────────────────────────────
+  test:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      target: base
+    image: usbdeckrec-builder:latest
+    depends_on:
+      - base
+    environment:
+      - GRADLE_OPTS=-Dorg.gradle.parallel=true -Dorg.gradle.caching=true
+    volumes:
+      - gradle-cache:/root/.gradle
+      - ccache-cache:/root/.ccache
+      - ..:/workspace
+    working_dir: /workspace
+    command: gradle --build-cache --parallel --no-daemon test
+
+volumes:
+  gradle-cache:
+  ccache-cache:
